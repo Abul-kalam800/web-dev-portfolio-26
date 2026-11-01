@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* comon class */
+.common-btn {
+  padding:10px 25px;
+  text-align: center;
+  background-color: orange;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+#header {
+  margin-top: 50px;
+  
+}
+.logo{
+    font-size: 45px;
+}
+.manu {
+  display: flex;
+  justify-content: space-between;
+}
+.manu,ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.manu,ul,li  {
+    list-style: none;
+    padding-left: 50px;
+}
+.manu,ul,li,a{
+    text-decoration: none;
+}
