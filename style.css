@@ -150,3 +150,47 @@ img{
     margin-bottom: 20px;
     line-height: 20px;
 }
+/* resume section style  */
+.resume{
+    padding: 100px 0;
+
+}
+.resume h2{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 35px;
+
+}
+.resume-card-parent{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.resume-card{
+    border-bottom: 2px solid black;
+    padding-bottom: 30px;
+}
+.resume-card h5{
+    font-size: 20px;
+    padding-top: 30px;
+    
+
+
+}
+.resume-card h3{
+    font-size: 30px;
+    padding: 20px 0;
+}
+.resume-card h4{
+    font-size: 24px;
+    padding-bottom: 20px;
+
+}
+.resume-card p{
+    font-size: 20px;
+    line-height: 25px;
+}
+.resume-btn{
+    margin: 50px auto;
+    text-align: center;
+}
