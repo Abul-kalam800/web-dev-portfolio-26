@@ -114,3 +114,39 @@ img{
     text-align: center;
     margin-top: 10px;
  }
+ /* skills sectiion */
+.skills{
+    margin-bottom: 100px;
+    
+}
+.skills h2{
+    text-align: center;
+    padding:  50px 0;
+    font-size: 36px;
+}
+.skills-card-parent{
+   display: flex;
+   
+    gap: 10px;
+}
+.skill-card{
+    padding: 30px;
+    background-color: #f3e7e7;
+    max-width: 260px;
+    box-shadow: 0px 2px 2px rgb(189, 183, 183);
+}
+.skill-card img{
+    width: 50px;
+    margin-bottom: 30px;
+    
+}
+.skill-card h4{
+    font-size: 24px;
+    margin-bottom: 20px;
+   
+}
+.skill-card p{
+    font-size:20px;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
