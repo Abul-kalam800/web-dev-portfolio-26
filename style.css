@@ -50,11 +50,11 @@ img{
 /* navbar end  */
 .bannar{
     background-color: rgb(244, 231, 215);
-    padding: 100px;
+    padding: 50px 0px;
     background-image: url('./images/images/developer.png'),url('./images/images/header_bg.png');
     background-repeat: no-repeat;
     background-position: left,right;
-    background-size:contain;
+    background-size:70px,56%;
 }
 .banner-parent{
     display: flex;
@@ -76,3 +76,41 @@ img{
     font-size: 20px;
     margin-bottom: 20px;
 }
+/* about section  */
+.about{
+    padding: 100px;
+    background-color: rgb(234, 228, 220);
+    border-radius: 10px;
+    max-width: 850px;
+    margin: 100px auto;
+}
+.about h3{
+    font-size:35px ;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: center;
+
+}
+.about .about-content{
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+}
+ .about-card-parent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+ }
+ .about-card-parent p{
+    font-size: 20px;
+    text-align: center;
+   
+
+
+ }
+ .about-card-parent h5{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+ }
